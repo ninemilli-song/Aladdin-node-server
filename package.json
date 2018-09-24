@@ -1,0 +1,31 @@
+{
+  "name": "aladdin-node-server",
+  "version": "1.0.0",
+  "description": "aladdin server use nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development PORT=9002 nodemon scripts/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninemilli-song/Aladdin-node-server.git"
+  },
+  "keywords": [
+    "Aladdin",
+    "aladdin",
+    "node",
+    "server",
+    "koa"
+  ],
+  "author": "ninemilli.song",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninemilli-song/Aladdin-node-server/issues"
+  },
+  "homepage": "https://github.com/ninemilli-song/Aladdin-node-server#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "eslint": "^5.6.0"
+  }
+}
