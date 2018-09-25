@@ -3,7 +3,6 @@ const app = new Koa();
 const router = require('koa-router')();
 const views = require('koa-views');
 // const co = require('co');
-const convert = require('koa-convert');
 const json = require('koa-json')();
 const bodyparser = require('koa-bodyparser')();
 const logger = require('koa-logger')();
@@ -18,9 +17,9 @@ const path = require('path');
 /**
  * middlewares
  */
-app.use(convert(bodyparser));
-app.use(convert(json));
-app.use(convert(logger));
+app.use(bodyparser);
+app.use(json);
+app.use(logger);
 
 /**
  * koa static server for product environment

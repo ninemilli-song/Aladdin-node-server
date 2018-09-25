@@ -26,6 +26,20 @@
   "homepage": "https://github.com/ninemilli-song/Aladdin-node-server#readme",
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "eslint": "^5.6.0"
+    "eslint": "^5.6.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.3.0",
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "winston": "^3.1.0"
   }
 }
